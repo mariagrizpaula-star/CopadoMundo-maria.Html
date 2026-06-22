@@ -1,0 +1,23 @@
+ <!DOCTYPE html>
+ <html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Simulação da Copa do Mundo</title>
+<style>
+body { font-family:Arial,sans-serif;margin: 20px}
+h1 {color:darkgreen;}
+button{margin-top:15px;padding:10px}
+.resultado {margin-top:20px;font-weight:bold;}
+</style>
+</head>
+<body>
+<h1>Simulação da Copa do Mundo</h1>
+<p>Probabilidades iniciais (quanto maior,mais chance de vencer):</p>
+<table id="tabela">
+<tr><th>Seleção</th><th>Probabilidade (%)</th></tr>
+<tr><td><input type="Brasil"></td><input type="number"
+value="30"></td></tr>
+<tr><td><input type="text" value="Argentina"></td></td><input type="number"
+value="25"></td></tr>
+<tr><td><input type="text" value ="França"></td><td><input type="number"
+value="15"></td></tr>
